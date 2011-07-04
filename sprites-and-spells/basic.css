@@ -310,7 +310,6 @@ div.menu {
   margin: 0 auto;
   background-color: white;
   position: relative;
-  width: 980px;
   text-align: left;
   -moz-border-radius-bottomleft: 6px;
   border-bottom-left-radius: 6px;
@@ -1504,4 +1503,9 @@ html body {
 
 #container {
   width: 100%;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
 }
