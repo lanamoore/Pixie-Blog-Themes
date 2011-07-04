@@ -1493,3 +1493,15 @@ dd {
 div.wp_syntax {
   width: 99%;
 }
+
+#wrapperpub, #access, #primary, #secondary, #footer, #footerlink, .clear {
+  display: none;
+}
+
+html body {
+  background-image: none;
+}
+
+#container {
+  width: 100%;
+}
