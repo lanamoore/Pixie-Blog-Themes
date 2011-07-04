@@ -35,8 +35,13 @@
   ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
-
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<?php
+  if (isset($_GET["basic"])) {
+?>
+    <link rel="stylesheet" type="text/css" media="all" href="http://blog.pixieengine.com/wp-content/themes/sprites-and-spells/basic.css" />
+<?php  } else { ?>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<?php } ?>
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
