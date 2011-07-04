@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Theme Name:     Sprites & Spells
  * Theme URI:      http://blog.pixieengine.com
- * Description:    Theme for PixieEngine Blog 
+ * Description:    Theme for PixieEngine Blog
  * Author:         Lana X. Moore
  * Author URI:     http://pixieengine.com
  * Template:       codium-extend
@@ -1489,4 +1489,8 @@ dd {
     max-width: 100px;
     width: auto;
   }
+}
+
+div.wp_syntax {
+  width: 99%;
 }
